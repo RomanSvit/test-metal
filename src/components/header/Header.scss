@@ -1,0 +1,36 @@
+@import "../../base.scss";
+
+.header{
+    // padding-left: 90px;
+    padding-top: 5px;
+    padding-bottom: 11px;
+}
+.wraper-header-nav{
+    display: flex;
+    align-items: flex-end;
+}
+.logo{
+    display: block;
+    width: 123px;
+    height: 90px;
+    background-image: url('/images/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 149px;
+}
+.search-btn{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 33px;
+    border: none;
+    background: none;
+    background-image: url('/images/search.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.wrapp{
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+}

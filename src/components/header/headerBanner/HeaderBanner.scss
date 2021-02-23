@@ -1,0 +1,51 @@
+@import "../../../base.scss";
+.header-Banner {
+  position: relative;
+  width: 1360px;
+  height: 448px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+.block-description {
+  position: relative;
+  top: 94px;
+  width: 751px;
+  height: 260px;
+  background-color: $background_desc;
+  &-text {
+    position: absolute;
+    top: 65px;
+    left: 90px;
+    display: block;
+    width: 631px;
+    color: $color_text_desc;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 65px;
+  }
+}
+.line {
+  position: absolute;
+  top: 129px;
+  display: block;
+  width: 636px;
+  height: 2px;
+  background-color: $background_line;
+}
+.slider {
+  position: absolute;
+  top: 419px;
+  left: 50%;
+  transform: translate(0, -50%);
+  display: flex;
+  list-style: none;
+  &-item {
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background-color: $backgroud_slid_item;
+  }
+}
