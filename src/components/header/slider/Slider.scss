@@ -1,12 +1,20 @@
 @import "../../../base.scss";
 .header-Banner {
   position: relative;
-  width: 1360px;
+  min-width: 1360px;
   height: 448px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin: 0 auto;
+}
+.banner-slider {
+  width: 1360px;
+  overflow: hidden;
+}
+.slider-traker {
+  display: flex;
+  transition: 0.2s;
 }
 .block-description {
   position: relative;
@@ -47,5 +55,41 @@
     margin-right: 15px;
     border-radius: 50%;
     background-color: $backgroud_slid_item;
+    cursor: pointer;
   }
 }
+.active {
+  background-color: $backgroud_slid_item_active;
+}
+      .fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInDown {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInDown {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
