@@ -1,0 +1,61 @@
+.service{
+    background-color: #ffffff;
+    padding-top: 30px;
+    position: relative;
+    
+    &-block{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 1180px;
+        height: 625px;
+        margin-bottom: 20px;
+        &_item{
+            position: relative;
+            width: 387px;
+            height: 201px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            &:nth-last-child(-n+2){
+                width: 585px;
+            }
+            &-wrap{
+                position: absolute;
+                padding-left: 15px;
+                left: 0;
+                top: 33px;
+                width: 339px; 
+                height: 56px;
+                background: rgba(62, 62, 62, 0.9);
+                &::after{
+                    position: absolute;
+                    right: 15px;
+                    content: ' ';
+                    width: 2px; 
+                    height: 46px;
+                    background-color: rgba(228, 181, 107, 1);
+                }
+                &__title{
+                    color: #ffffff;
+                    line-height: 60px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .calc-price-btn{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0 auto;
+        width: 379px;
+        height: 43px;
+        background: #454647;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+    }
+}

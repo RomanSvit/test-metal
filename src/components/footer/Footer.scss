@@ -1,0 +1,92 @@
+.footer{
+    background-color: white;
+    padding: 20px 0;
+    &-wrap{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    &-block-about{
+        position: relative;
+        width: 126px;
+        height: 180px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        &::after{
+            display: block;
+            content: ' ';
+            width: 1px;
+            height: 55px;
+            background: #E4B56B;
+            position: absolute;
+            top: -27px;
+            left: 358px;
+        }
+    }
+    &-block-service{
+        width: 462px;
+        height: 180px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative;
+        left: 80px;
+        &::after {
+                display: block;
+                content: ' ';
+                width: 1px;
+                height: 55px;
+                background: #E4B56B;
+                position: absolute;
+                top: -27px;
+                left: 422px;
+            }
+        .list-service{
+            display: flex;
+            height: 180px;
+            justify-content: space-between;
+            flex-direction: column;
+            flex-wrap: wrap;
+            &-item{
+                height: 37px;
+            }
+        }
+    }
+    &-block-info{
+        width: 208px;
+        height: 180px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .list-info{
+            font-weight: 300;
+            font-size:16px;
+            line-height: 21px;
+            color: rgba(62, 62, 62, 1);
+        }
+    }
+    .add-style{
+        margin-bottom: 9px;
+    }
+    .social-block{
+        display: flex;
+        justify-content: space-between;
+        width: 93px;
+        height: 21px;
+        &-item{
+            width: 21px;
+            height: 21px;
+            cursor: pointer;
+        }
+    }
+    .bottom-text{
+        display: block;
+        margin: 0 auto;
+        width: 91px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 13.83px;
+        text-align: center;
+    }
+}

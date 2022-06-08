@@ -1,0 +1,131 @@
+[
+    {
+        "lang": "ru",
+        "menu": ["Главная", "Услуги", "Наши работы", "О нас", "Контакты"],
+        "banner": "Высокоточное изготовление изделий из металла по чертежам",
+        "sectionServices": {
+            "img": [
+                "/assets/image/service/Rectangle18",
+                "/assets/image/service/Rectangle20",
+                "/assets/image/service/Rectangle22",
+                "/assets/image/service/Rectangle19",
+                "/assets/image/service/Rectangle21",
+                "/assets/image/service/Rectangle17",
+                "/assets/image/service/Rectangle23",
+                "/assets/image/service/Rectangle24"
+            ],
+            "section": "Услуги",
+            "titles": [
+                "Производство оборудования",
+                "Металлическая мебель",
+                "Металлоконструкции",
+                "Металлообработка",
+                "Раскрой металла",
+                "Конструкторское бюро",
+                "Аренда техники",
+                "Ремонт техники"
+            ],
+            "priceCalc": "Быстрый расчет цены по чертежу"
+        },
+        "sectionCompany": {
+            "section": "Наша компания",
+            "titles": ["Почему мы?", "Наши преимущества"],
+            "description": "Люди – профессионалы с большим опытом работы. Полный спектр работ по металлообработке в одном месте – комплексный индивидуальный подход. Конструкторский отдел. Логистика. Многолетний опыт машиностроения – создание промышленного "
+        },
+        "search": "Поиск",
+        "footer": {
+            "title": "Контактная информация",
+            "address": "Заводская улица, 2В, Буча, Киевская область, 08292",
+            "schedule": "ПН - ПТ: 09:00 - 18:00",
+            "phone": "+38(097)123-45-67",
+            "titleAbout": "О компании",
+            "about": ["Наши работы", "Контакты", "Доставка", "Форма заказа"]
+        }
+    },
+    {
+        "lang": "uk",
+        "menu": ["Main", "Services", "Our works", "About", "Contacts"],
+        "banner": "High-precision manufacturing of metal products according to drawings",
+        "sectionServices": {
+            "section": "Services",
+            "img": [
+                "/assets/image/service/Rectangle18",
+                "/assets/image/service/Rectangle20",
+                "/assets/image/service/Rectangle22",
+                "/assets/image/service/Rectangle19",
+                "/assets/image/service/Rectangle21",
+                "/assets/image/service/Rectangle17",
+                "/assets/image/service/Rectangle23",
+                "/assets/image/service/Rectangle24"
+            ],
+            "titles": [
+                "Equipment manufacturing",
+                "Metal furniture",
+                "Metal structures",
+                "Metalworking",
+                "Cutting metal",
+                "Design department",
+                "Equipment rental",
+                "Equipment repair"
+            ],
+            "priceCalc": "Quick price calculation according to the drawing"
+        },
+        "sectionCompany": {
+            "section": "Our company",
+            "titles": ["Why us?", "Our advantages"],
+            "description": "The people are professionals with extensive experience. A full range of metalworking works in one place - a comprehensive individual approach. Design department. Logistics. Many years of experience in mechanical engineering - the creation of an industrial"
+        },
+        "search": "Search",
+        "footer": {
+            "title": "Contact Information",
+            "address": "Zavodskaya ulitsa, 2V, Bucha, Kiyevskaya oblast', 08292",
+            "schedule": "Mn - Fr: 09:00 - 18:00",
+            "phone": "+38(097)123-45-67",
+            "titleAbout": "About company",
+            "about": ["Our work","Contacts","Delivery","Order form"]
+        }
+    },
+    {
+        "lang": "ua",
+        "menu": ["Головна", "Послуги", "Наші роботи", "Про нас", "Контакти"],
+        "banner": "Високоточне виготовлення виробів з металу по кресленням",
+        "sectionServices": {
+            "section": "Послуги",
+            "img": [
+                "/assets/image/service/Rectangle18",
+                "/assets/image/service/Rectangle20",
+                "/assets/image/service/Rectangle22",
+                "/assets/image/service/Rectangle19",
+                "/assets/image/service/Rectangle21",
+                "/assets/image/service/Rectangle17",
+                "/assets/image/service/Rectangle23",
+                "/assets/image/service/Rectangle24"
+            ],
+            "titles": [
+                "Виробництво обладнання",
+                "Металеві меблі",
+                "Металоконструкції",
+                "Металообробка",
+                "Розкрій металу",
+                "Конструкторське бюро",
+                "Оренда техніки",
+                "Ремонт техніки"
+            ],
+            "priceCalc": "Швидкий розрахунок ціни за кресленням"
+        },
+        "sectionCompany": {
+            "section": "Наша компанія",
+            "titles": ["Чому ми?", "Наші переваги"],
+            "description": "Люди – професіонали із великим досвідом роботи. Повний спектр робіт із металообробки в одному місці – комплексний індивідуальний підхід. Конструкторський відділ. Логістика. Багаторічний досвід машинобудування – створення промислового"
+        },
+        "search": "Пошук",
+        "footer": {
+            "title": "Контактна інформація",
+            "address": "Заводська вулиця, 2В, Буча, Київська область, 08292",
+            "schedule": "ПН - ПТ: 09:00 - 18:00",
+            "phone": "+38(097)123-45-67",
+            "titleAbout": "Про компанію",
+            "about": ["Наші роботи", "Контакти", "Доставка", "Форма замовлення"]
+        }
+    }
+]

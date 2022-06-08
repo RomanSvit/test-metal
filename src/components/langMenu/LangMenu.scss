@@ -1,0 +1,64 @@
+.wrapper-block-lang {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.block-lang {
+    position: absolute;
+    top: -2px;
+    right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+    margin: 0 auto;
+    background: rgba(250, 249, 249, 0.2);
+    overflow: hidden;
+    list-style: none;
+    &-item{
+        margin-bottom: 5px;
+        .lang-btn:hover {
+           transform: scale(1.1);
+           transition: .4s;
+        }
+    }
+}
+.open-block-lang{
+    z-index: 1;
+    overflow: visible;
+    height: 86px;
+    background: rgba(165, 162, 162, 0.2)
+}
+
+.open-arrow-btn {
+    width: 15px;
+    height: 15px;
+    display: block;
+    background: none;
+    background-image: url("../../images/arrowDown.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    &:hover {
+        transform: scale(1.1);
+        transition: .3s;
+    }
+}
+.close-arrow-btn {
+    width: 15px;
+    height: 15px;
+    display: block;
+    background: none;
+    background-image: url("../../images/arrowUp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    &:hover {
+        transform: scale(1.1);
+        transition: .3s;
+    }
+}

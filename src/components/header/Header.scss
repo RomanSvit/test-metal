@@ -1,5 +1,20 @@
 
-
-p{
-    color: $main_color;
+@import "../../base.scss";
+.header{
+    background-color: #FFFFFF;
+    padding-top: 5px;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.logo {
+    display: block;
+    width: 123px;
+    height: 90px;
+    background-image: url('../../images/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 149px;
 }

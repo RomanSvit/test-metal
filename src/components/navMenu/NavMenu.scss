@@ -1,0 +1,67 @@
+@import "../../base.scss";
+.block-menu{
+    margin-right: 163px;
+    width: 625px;
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    .active-item::before {
+            position: absolute;
+            top: 79px;
+            content: ' ';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: $background_line;
+        }
+    &-item {
+        position: relative;
+        height: 80px;
+        color: $main_color;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: flex-end;
+        cursor: pointer;
+        border: none;
+        
+        &::after{
+            content: ' ';
+            position: absolute;
+            top: -20px;
+            right: -35px;
+            display: block;
+            height: 102px;
+            width: 1px;
+            background-color: rgb(173, 178, 184);
+        }
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+           
+            padding-right: 0;
+            &::after{
+                display: none;
+            }
+        } 
+    }
+}
+
+
+.services-btn {
+    display: block;
+    background: none;
+    background-image: url("/images/arrowDown.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 15px;
+    height: 15px;
+    border: none;
+    margin-left: 10px;
+}
+}

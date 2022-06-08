@@ -1,0 +1,35 @@
+.block-gears{
+    position: absolute;
+    height: 680px;
+    .service-gear1 {
+            width: 208px;
+            height: 208px;
+            position: absolute;
+            left: 1130px;
+            top: 12%;
+        }
+    
+        .service-gear2 {
+            width: 208px;
+            height: 208px;
+            position: absolute;
+            top: 48%;
+            left: 20px;
+        }
+    
+        .service-gear3 {
+            width: 176px;
+            height: 176px;
+            position: absolute;
+            top: 15%;
+            left: 25px;
+        }
+    
+        .service-gear4 {
+            width: 176px;
+            height: 176px;
+            position: absolute;
+            left: 1152px;
+            top: 50%;
+        }
+}
